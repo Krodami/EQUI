@@ -1,0 +1,1926 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+  <!-- BACKGROUNDS -->
+  
+  
+    <!-- LINE AROUND -->
+  <StaticAnimation item="LodiACTW_LineGroupTop">
+    <ScreenID>LodiACTW_LineGroupTop</ScreenID>
+    <Location>
+      <X>2</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>108</CX>
+      <CY>1</CY>
+    </Size>
+    <Animation>A_Lodi_BasicLine</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiACTW_LineGroupLeft">
+    <ScreenID>LodiACTW_LineGroupLeft</ScreenID>
+    <Location>
+      <X>2</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>1</CX>
+      <CY>190</CY>
+    </Size>
+    <Animation>A_Lodi_BasicLine</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiACTW_LineGroupRight">
+    <ScreenID>LodiACTW_LineGroupRight</ScreenID>
+    <Location>
+      <X>110</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>1</CX>
+      <CY>190</CY>
+    </Size>
+    <Animation>A_Lodi_BasicLine</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiACTW_LineGroupBottom">
+    <ScreenID>LodiACTW_LineGroupBottom</ScreenID>
+    <Location>
+      <X>2</X>
+      <Y>192</Y>
+    </Location>
+    <Size>
+      <CX>108</CX>
+      <CY>1</CY>
+    </Size>
+    <Animation>A_Lodi_BasicLine</Animation>
+  </StaticAnimation>
+<!-- -->  
+<!-- -->  
+<!-- -->  
+  <StaticAnimation item="LodiACTW_TabBackground">
+    <ScreenID>LodiACTW_TabBackground</ScreenID>
+    <Location>
+      <X>2</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>110</CX>
+      <CY>20</CY>
+    </Size>
+    <Animation>A_LodiACTW_TabIconsBackground</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiACTW_BackgroundLeft">
+    <ScreenID>LodiACTW_BackgroundLeft</ScreenID>
+    <Location>
+      <X>0</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>1</CX>
+      <CY>166</CY>
+    </Size>
+    <Animation>A_LodiACTW_BackgroundSide</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiACTW_BackgroundCenter">
+    <ScreenID>LodiACTW_BackgroundCenter</ScreenID>
+    <Location>
+      <X>1</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>107</CX>
+      <CY>166</CY>
+    </Size>
+    <Animation>A_LodiACTW_BackgroundCenter</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiACTW_BackgroundRight">
+    <ScreenID>LodiACTW_BackgroundRight</ScreenID>
+    <Location>
+      <X>108</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>1</CX>
+      <CY>166</CY>
+    </Size>
+    <Animation>A_LodiACTW_BackgroundSide</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiAIP_BackgroundLeft">
+    <ScreenID>LodiAIP_BackgroundLeft</ScreenID>
+    <Location>
+      <X>0</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>1</CX>
+      <CY>166</CY>
+    </Size>
+    <Animation>A_LodiACTW_AIPBackgroundLeftSide</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiAIP_BackgroundLeftCenter">
+    <ScreenID>LodiAIP_BackgroundLeftCenter</ScreenID>
+    <Location>
+      <X>1</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>54</CX>
+      <CY>166</CY>
+    </Size>
+    <Animation>A_LodiACTW_AIPBackgroundLeftCenter</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiAIP_BackgroundSplit">
+    <ScreenID>LodiAIP_BackgroundSplit</ScreenID>
+    <Location>
+      <X>55</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>3</CX>
+      <CY>166</CY>
+    </Size>
+    <Animation>A_LodiACTW_AIPBackgroundSplit</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiAIP_BackgroundRightCenter">
+    <ScreenID>LodiAIP_BackgroundRightCenter</ScreenID>
+    <Location>
+      <X>58</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>166</CY>
+    </Size>
+    <Animation>A_LodiACTW_AIPBackgroundRightCenter</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiAIP_BackgroundRight">
+    <ScreenID>LodiAIP_BackgroundRight</ScreenID>
+    <Location>
+      <X>108</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>1</CX>
+      <CY>166</CY>
+    </Size>
+    <Animation>A_LodiACTW_AIPBackgroundRightSide</Animation>
+  </StaticAnimation>
+  <!-- Actions Socials Page -->
+  <StaticAnimation item="LodiASP_PageNumBackgroundLeft">
+    <ScreenID>LodiASP_PageNumBackgroundLeft</ScreenID>
+    <Location>
+      <X>20</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>1</CX>
+      <CY>20</CY>
+    </Size>
+    <Animation>A_LodiACTW_ASPPageNumBackgroundSide</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiASP_PageNumBackgroundCenter">
+    <ScreenID>LodiASP_PageNumBackgroundCenter</ScreenID>
+    <Location>
+      <X>21</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>67</CX>
+      <CY>20</CY>
+    </Size>
+    <Animation>A_LodiACTW_ASPPageNumBackgroundCenter</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiASP_PageNumBackgroundRight">
+    <ScreenID>LodiASP_PageNumBackgroundRight</ScreenID>
+    <Location>
+      <X>88</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>1</CX>
+      <CY>20</CY>
+    </Size>
+    <Animation>A_LodiACTW_ASPPageNumBackgroundSide</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiASP_PageNumShadowBottom">
+    <ScreenID>LodiASP_PageNumShadowBottom</ScreenID>
+    <Location>
+      <X>20</X>
+      <Y>21</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>1</CY>
+    </Size>
+    <Animation>A_LodiACTW_ASPPageNumBackgroundShadow</Animation>
+  </StaticAnimation>
+  <StaticAnimation item="LodiASP_PageNumShadowRight">
+    <ScreenID>LodiASP_PageNumShadowRight</ScreenID>
+    <Location>
+      <X>89</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>1</CX>
+      <CY>20</CY>
+    </Size>
+    <Animation>A_LodiACTW_ASPPageNumBackgroundShadow</Animation>
+  </StaticAnimation>
+  <Button item="ASP_SocialPageLeftButton">
+    <ScreenID>ASP_SocialPageLeftButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>20</CX>
+      <CY>20</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_Lodi_20x20MinusBtnNormal</Normal>
+      <Pressed>A_Lodi_20x20MinusBtnPressed</Pressed>
+      <Flyby>A_Lodi_20x20MinusBtnFlyby</Flyby>
+      <Disabled>A_Lodi_20x20MinusBtnDisabled</Disabled>
+      <PressedFlyby>A_Lodi_20x20MinusBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Label item="ASP_CurrentSocialPageLabel">
+    <ScreenID>ASP_CurrentSocialPageLabel</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>20</X>
+      <Y>6</Y>
+    </Location>
+    <Size>
+      <CX>69</CX>
+      <CY>20</CY>
+    </Size>
+    <Text>1</Text>
+    <NoWrap>false</NoWrap>
+    <AlignCenter>true</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Button item="ASP_SocialPageRightButton">
+    <ScreenID>ASP_SocialPageRightButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>90</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>20</CX>
+      <CY>20</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_Lodi_20x20PlusBtnNormal</Normal>
+      <Pressed>A_Lodi_20x20PlusBtnPressed</Pressed>
+      <Flyby>A_Lodi_20x20PlusBtnFlyby</Flyby>
+      <Disabled>A_Lodi_20x20PlusBtnDisabled</Disabled>
+      <PressedFlyby>A_Lodi_20x20PlusBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton1">
+    <ScreenID>ASP_SocialButton1</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>22</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton7">
+    <ScreenID>ASP_SocialButton7</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>22</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton2">
+    <ScreenID>ASP_SocialButton2</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>46</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton8">
+    <ScreenID>ASP_SocialButton8</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>46</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton3">
+    <ScreenID>ASP_SocialButton3</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>70</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton9">
+    <ScreenID>ASP_SocialButton9</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>70</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton4">
+    <ScreenID>ASP_SocialButton4</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>94</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton10">
+    <ScreenID>ASP_SocialButton10</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>94</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton5">
+    <ScreenID>ASP_SocialButton5</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>118</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton11">
+    <ScreenID>ASP_SocialButton11</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>118</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton6">
+    <ScreenID>ASP_SocialButton6</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>142</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ASP_SocialButton12">
+    <ScreenID>ASP_SocialButton12</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>142</Y>
+    </Location>
+    <Size>
+      <CX>55</CX>
+      <CY>24</CY>
+    </Size>
+    <Text />
+    <ButtonDrawTemplate>
+      <Normal>A_SmallBtnNormal</Normal>
+      <Pressed>A_SmallBtnPressed</Pressed>
+      <Flyby>A_SmallBtnFlyby</Flyby>
+      <Disabled>A_SmallBtnDisabled</Disabled>
+      <PressedFlyby>A_SmallBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Page item="ActionsSocialsPage">
+    <ScreenID>ActionsSocialsPage</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <TooltipReference>Socials Page</TooltipReference>
+    <DrawTemplate>WDT_Def</DrawTemplate>
+    <TabIcon>A_LodiACTW_SocialsTabIcon</TabIcon>
+    <TabIconActive>A_LodiACTW_SocialsTabActiveIcon</TabIconActive>
+    <Pieces>LodiASP_PageNumBackgroundLeft</Pieces>
+    <Pieces>LodiASP_PageNumBackgroundCenter</Pieces>
+    <Pieces>LodiASP_PageNumBackgroundRight</Pieces>
+    <Pieces>LodiASP_PageNumShadowBottom</Pieces>
+    <Pieces>LodiASP_PageNumShadowRight</Pieces>
+    <Pieces>ASP_SocialPageLeftButton</Pieces>
+    <Pieces>ASP_CurrentSocialPageLabel</Pieces>
+    <Pieces>ASP_SocialPageRightButton</Pieces>
+    <Pieces>ASP_SocialButton1</Pieces>
+    <Pieces>ASP_SocialButton2</Pieces>
+    <Pieces>ASP_SocialButton3</Pieces>
+    <Pieces>ASP_SocialButton4</Pieces>
+    <Pieces>ASP_SocialButton5</Pieces>
+    <Pieces>ASP_SocialButton6</Pieces>
+    <Pieces>ASP_SocialButton7</Pieces>
+    <Pieces>ASP_SocialButton8</Pieces>
+    <Pieces>ASP_SocialButton9</Pieces>
+    <Pieces>ASP_SocialButton10</Pieces>
+    <Pieces>ASP_SocialButton11</Pieces>
+    <Pieces>ASP_SocialButton12</Pieces>
+  </Page>
+  <!-- Actions Main Page -->
+  <!-- Note that the Who Button is being "replaced" by the Find button, so here it has been shrunk to have 0x0 dimensions. The button still exists in the window, so you can feel free to put it back in your own custom skin, if you desire.-->
+  <Button item="AMP_WhoButton">
+    <ScreenID>AMP_WhoButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>0</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>0</CX>
+      <CY>0</CY>
+    </Size>
+    <Text>Who</Text>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AMP_FindButton">
+    <ScreenID>AMP_FindButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>13</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>24</CY>
+    </Size>
+    <Text>Find</Text>
+
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AMP_EndFindButton">
+    <ScreenID>AMP_EndFindButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>13</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>24</CY>
+    </Size>
+    <Text>End Find</Text>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AMP_InviteButton">
+    <ScreenID>AMP_InviteButton</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>37</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>24</CY>
+    </Size>
+    <Text>Invite</Text>
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AMP_FollowButton">
+    <ScreenID>AMP_FollowButton</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>37</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>24</CY>
+    </Size>
+    <Text>Follow</Text>
+  
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AMP_DisbandButton">
+    <ScreenID>AMP_DisbandButton</ScreenID>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>61</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>24</CY>
+    </Size>
+    <Text>Disband</Text>
+ 
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AMP_CampButton">
+    <ScreenID>AMP_CampButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>85</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>24</CY>
+    </Size>
+    <Text>Camp</Text>
+ 
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AMP_SitButton">
+    <ScreenID>AMP_SitButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>109</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>24</CY>
+    </Size>
+    <Text>Sit</Text>
+   
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AMP_StandButton">
+    <ScreenID>AMP_StandButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>109</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>24</CY>
+    </Size>
+    <Text>Stand</Text>
+  
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AMP_RunButton">
+    <ScreenID>AMP_RunButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>133</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>24</CY>
+    </Size>
+    <Text>Run</Text>
+ 
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AMP_WalkButton">
+    <ScreenID>AMP_WalkButton</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>10</X>
+      <Y>133</Y>
+    </Location>
+    <Size>
+      <CX>90</CX>
+      <CY>24</CY>
+    </Size>
+    <Text>Walk</Text>
+  
+    <ButtonDrawTemplate>
+      <Normal>A_BtnNormal</Normal>
+      <Pressed>A_BtnPressed</Pressed>
+      <Flyby>A_BtnFlyby</Flyby>
+      <Disabled>A_BtnDisabled</Disabled>
+      <PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Page item="ActionsMainPage">
+    <ScreenID>ActionsMainPage</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <TooltipReference>Main Page</TooltipReference>
+    <DrawTemplate>WDT_Def</DrawTemplate>
+    <TabIcon>A_LodiACTW_MainTabIcon</TabIcon>
+    <TabIconActive>A_LodiACTW_MainTabActiveIcon</TabIconActive>
+    <Pieces>LodiACTW_BackgroundLeft</Pieces>
+    <Pieces>LodiACTW_BackgroundCenter</Pieces>
+    <Pieces>LodiACTW_BackgroundRight</Pieces>
+    <Pieces>AMP_WhoButton</Pieces>
+    <Pieces>AMP_FindButton</Pieces>
+    <Pieces>AMP_EndFindButton</Pieces>
+    <Pieces>AMP_InviteButton</Pieces>
+    <Pieces>AMP_FollowButton</Pieces>
+    <Pieces>AMP_DisbandButton</Pieces>
+    <Pieces>AMP_CampButton</Pieces>
+    <Pieces>AMP_SitButton</Pieces>
+    <Pieces>AMP_StandButton</Pieces>
+    <Pieces>AMP_RunButton</Pieces>
+    <Pieces>AMP_WalkButton</Pieces>
+  </Page>
+  <!-- Actions Combat Page -->
+  <Button item="ACP_MeleeAttackButton">
+    <ScreenID>ACP_MeleeAttackButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>15</X>
+      <Y>25</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>Melee Attack</Text>
+   
+    <DecalSize>
+      <CX>40</CX>
+      <CY>40</CY>
+    </DecalSize>
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ACP_RangeAttackButton">
+    <ScreenID>ACP_RangeAttackButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>25</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>Range Attack</Text>
+  
+    <DecalSize>
+      <CX>40</CX>
+      <CY>40</CY>
+    </DecalSize>
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ACP_FirstAbilityButton">
+    <ScreenID>ACP_FirstAbilityButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>15</X>
+      <Y>65</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>1</Text>
+  
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ACP_SecondAbilityButton">
+    <ScreenID>ACP_SecondAbilityButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>65</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>2</Text>
+   
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ACP_ThirdAbilityButton">
+    <ScreenID>ACP_ThirdAbilityButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>15</X>
+      <Y>105</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>3</Text>
+  
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="ACP_FourthAbilityButton">
+    <ScreenID>ACP_FourthAbilityButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>105</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>4</Text>
+  
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Page item="ActionsCombatPage">
+    <ScreenID>ActionsCombatPage</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <TooltipReference>Combat Page</TooltipReference>
+    <DrawTemplate>WDT_Def</DrawTemplate>
+    <TabIcon>A_LodiACTW_CombatTabIcon</TabIcon>
+    <TabIconActive>A_LodiACTW_CombatTabActiveIcon</TabIconActive>
+    <Pieces>LodiACTW_BackgroundLeft</Pieces>
+    <Pieces>LodiACTW_BackgroundCenter</Pieces>
+    <Pieces>LodiACTW_BackgroundRight</Pieces>
+    <Pieces>ACP_MeleeAttackButton</Pieces>
+    <Pieces>ACP_RangeAttackButton</Pieces>
+    <Pieces>ACP_FirstAbilityButton</Pieces>
+    <Pieces>ACP_SecondAbilityButton</Pieces>
+    <Pieces>ACP_ThirdAbilityButton</Pieces>
+    <Pieces>ACP_FourthAbilityButton</Pieces>
+  </Page>
+  <!-- Actions Abilities Page -->
+  <Button item="AAP_FirstAbilityButton">
+    <ScreenID>AAP_FirstAbilityButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>15</X>
+      <Y>25</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>1</Text>
+ 
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AAP_SecondAbilityButton">
+    <ScreenID>AAP_SecondAbilityButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>25</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>2</Text>
+  
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AAP_ThirdAbilityButton">
+    <ScreenID>AAP_ThirdAbilityButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>15</X>
+      <Y>65</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>3</Text>
+ 
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AAP_FourthAbilityButton">
+    <ScreenID>AAP_FourthAbilityButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>65</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>4</Text>
+ 
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AAP_FifthAbilityButton">
+    <ScreenID>AAP_FifthAbilityButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>15</X>
+      <Y>105</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>5</Text>
+  
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Button item="AAP_SixthAbilityButton">
+    <ScreenID>AAP_SixthAbilityButton</ScreenID>
+    <Font>1</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>55</X>
+      <Y>105</Y>
+    </Location>
+    <Size>
+      <CX>40</CX>
+      <CY>40</CY>
+    </Size>
+    <Text>6</Text>
+  
+    <ButtonDrawTemplate>
+      <Normal>A_SquareBtnNormal</Normal>
+      <Pressed>A_SquareBtnPressed</Pressed>
+      <Flyby>A_SquareBtnFlyby</Flyby>
+      <Disabled>A_SquareBtnDisabled</Disabled>
+      <PressedFlyby>A_SquareBtnPressedFlyby</PressedFlyby>
+    </ButtonDrawTemplate>
+  </Button>
+  <Page item="ActionsAbilitiesPage">
+    <ScreenID>ActionsAbilitiesPage</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <TooltipReference>Abilities Page</TooltipReference>
+    <DrawTemplate>WDT_Def</DrawTemplate>
+    <TabIcon>A_LodiACTW_AbilitiesTabIcon</TabIcon>
+    <TabIconActive>A_LodiACTW_AbilitiesTabActiveIcon</TabIconActive>
+    <Pieces>LodiACTW_BackgroundLeft</Pieces>
+    <Pieces>LodiACTW_BackgroundCenter</Pieces>
+    <Pieces>LodiACTW_BackgroundRight</Pieces>
+    <Pieces>AAP_FirstAbilityButton</Pieces>
+    <Pieces>AAP_SecondAbilityButton</Pieces>
+    <Pieces>AAP_ThirdAbilityButton</Pieces>
+    <Pieces>AAP_FourthAbilityButton</Pieces>
+    <Pieces>AAP_FifthAbilityButton</Pieces>
+    <Pieces>AAP_SixthAbilityButton</Pieces>
+  </Page>
+  <!-- Stats Page -->
+  <Label item="LodiAIP_PlayerName">
+    <ScreenID>PlayerName</ScreenID>
+    <Font>3</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>3</Y>
+    </Location>
+    <Size>
+      <CX>104</CX>
+      <CY>14</CY>
+    </Size>
+    <EQType>1</EQType>
+    <Text>myname</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_PlayerSurname">
+    <ScreenID>PlayerSurname</ScreenID>
+    <Font>3</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>16</Y>
+    </Location>
+    <Size>
+      <CX>104</CX>
+      <CY>14</CY>
+    </Size>
+    <EQType>73</EQType>
+    <Text>myname</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_LevelText">
+    <ScreenID>LevelTextLabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>29</Y>
+    </Location>
+    <Size>
+      <CX>104</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>Level</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_Level">
+    <ScreenID>LevelClassLabel</ScreenID>
+    <EQType>2</EQType>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>35</X>
+      <Y>29</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>x</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_Class">
+    <EQType>3</EQType>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>42</Y>
+    </Location>
+    <Size>
+      <CX>104</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>Shadow Knight</Text>
+ 
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_Deity">
+    <ScreenID>DeityLabel</ScreenID>
+    <EQType>4</EQType>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>55</Y>
+    </Location>
+    <Size>
+      <CX>104</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>Mithaniel Marr</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_STR">
+    <ScreenID>STRLabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>73</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>STR</Text>
+ 
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_STRNumber">
+    <ScreenID>STRNumberLabel</ScreenID>
+    <EQType>5</EQType>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>73</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_STA">
+    <ScreenID>STALabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>86</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>STA</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_STANumber">
+    <ScreenID>STANumberLabel</ScreenID>
+    <EQType>6</EQType>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>86</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+ 
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_AGI">
+    <ScreenID>AGILabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>99</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>AGI</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_AGINumber">
+    <ScreenID>AGINumberLabel</ScreenID>
+    <EQType>8</EQType>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>99</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_DEX">
+    <ScreenID>DEXLabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>112</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>DEX</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_DEXNumber">
+    <ScreenID>DEXNumberLabel</ScreenID>
+    <EQType>7</EQType>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>112</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_WIS">
+    <ScreenID>WISLabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>125</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>WIS</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_WISNumber">
+    <ScreenID>WISNumberLabel</ScreenID>
+    <EQType>9</EQType>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>125</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_INT">
+    <ScreenID>INTLabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>138</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>INT</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_INTNumber">
+    <ScreenID>INTNumberLabel</ScreenID>
+    <EQType>10</EQType>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>138</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_CHA">
+    <ScreenID>CHALabel</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>3</X>
+      <Y>151</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>CHA</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_CHANumber">
+    <ScreenID>CHANumberLabel</ScreenID>
+    <EQType>11</EQType>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>5</X>
+      <Y>151</Y>
+    </Location>
+    <Size>
+      <CX>50</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>355</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_Poison">
+    <ScreenID>PoisonLabel</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>72</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>SvP</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_PoisonNumber">
+    <ScreenID>PoisonNumberLabel</ScreenID>
+    <EQType>12</EQType>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>72</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_Magic">
+    <ScreenID>MagicLabel</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>83</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>SvM</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_MagicNumber">
+    <ScreenID>MagicNumberLabel</ScreenID>
+    <EQType>16</EQType>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>83</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_Disease">
+    <ScreenID>DiseaseLabel</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>94</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>SvD</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_DiseaseNumber">
+    <ScreenID>DiseaseNumberLabel</ScreenID>
+    <EQType>13</EQType>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>94</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_Fire">
+    <ScreenID>FireLabel</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>105</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>SvF</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_FireNumber">
+    <ScreenID>FireNumberLabel</ScreenID>
+    <EQType>14</EQType>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>105</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_Cold">
+    <ScreenID>ColdLabel</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>116</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>SvC</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_ColdNumber">
+    <ScreenID>ColdNumberLabel</ScreenID>
+    <EQType>15</EQType>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>116</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_Corruption">
+    <ScreenID>CorruptionLabel</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>127</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>SvC</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_CorruptionNumber">
+    <ScreenID>CorruptionNumberLabel</ScreenID>
+    <EQType>136</EQType>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>60</X>
+      <Y>127</Y>
+    </Location>
+    <Size>
+      <CX>46</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_TributeText">
+    <ScreenID>LodiAIP_TributeText</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>63</X>
+      <Y>142</Y>
+    </Location>
+    <Size>
+      <CX>42</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>T</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_TributeTimer">
+    <ScreenID>LodiAIP_TributeTimer</ScreenID>
+    <EQType>116</EQType>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>63</X>
+      <Y>142</Y>
+    </Location>
+    <Size>
+      <CX>42</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Label item="LodiAIP_GuildTributeText">
+    <ScreenID>LodiAIP_GuildTributeText</ScreenID>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>63</X>
+      <Y>153</Y>
+    </Location>
+    <Size>
+      <CX>42</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>G</Text>
+   
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+  </Label>
+  <Label item="LodiAIP_GuildTributeTimer">
+    <ScreenID>LodiAIP_GuildTributeTimer</ScreenID>
+    <EQType>121</EQType>
+    <Font>2</Font>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>63</X>
+      <Y>153</Y>
+    </Location>
+    <Size>
+      <CX>42</CX>
+      <CY>14</CY>
+    </Size>
+    <Text>255</Text>
+  
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>true</AlignRight>
+  </Label>
+  <Page item="Lodi_ActionsInfoPage">
+    <ScreenID>Lodi_ActionsInfoPage</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>true</Style_Transparent>
+    <TooltipReference>Info Page</TooltipReference>
+    <DrawTemplate>WDT_Def</DrawTemplate>
+    <TabIcon>A_LodiACTW_StatsTabIcon</TabIcon>
+    <TabIconActive>A_LodiACTW_StatsTabActiveIcon</TabIconActive>
+    <Pieces>LodiAIP_BackgroundLeft</Pieces>
+    <Pieces>LodiAIP_BackgroundLeftCenter</Pieces>
+    <Pieces>LodiAIP_BackgroundSplit</Pieces>
+    <Pieces>LodiAIP_BackgroundRightCenter</Pieces>
+    <Pieces>LodiAIP_BackgroundRight</Pieces>
+    <Pieces>LodiAIP_PlayerName</Pieces>
+    <Pieces>LodiAIP_PlayerSurname</Pieces>
+    <Pieces>LodiAIP_LevelText</Pieces>
+    <Pieces>LodiAIP_Level</Pieces>
+    <Pieces>LodiAIP_Class</Pieces>
+    <Pieces>LodiAIP_Deity</Pieces>
+    <Pieces>LodiAIP_STR</Pieces>
+    <Pieces>LodiAIP_STRNumber</Pieces>
+    <Pieces>LodiAIP_STA</Pieces>
+    <Pieces>LodiAIP_STANumber</Pieces>
+    <Pieces>LodiAIP_AGI</Pieces>
+    <Pieces>LodiAIP_AGINumber</Pieces>
+    <Pieces>LodiAIP_DEX</Pieces>
+    <Pieces>LodiAIP_DEXNumber</Pieces>
+    <Pieces>LodiAIP_WIS</Pieces>
+    <Pieces>LodiAIP_WISNumber</Pieces>
+    <Pieces>LodiAIP_INT</Pieces>
+    <Pieces>LodiAIP_INTNumber</Pieces>
+    <Pieces>LodiAIP_CHA</Pieces>
+    <Pieces>LodiAIP_CHANumber</Pieces>
+    <Pieces>LodiAIP_Poison</Pieces>
+    <Pieces>LodiAIP_PoisonNumber</Pieces>
+    <Pieces>LodiAIP_Magic</Pieces>
+    <Pieces>LodiAIP_MagicNumber</Pieces>
+    <Pieces>LodiAIP_Disease</Pieces>
+    <Pieces>LodiAIP_DiseaseNumber</Pieces>
+    <Pieces>LodiAIP_Fire</Pieces>
+    <Pieces>LodiAIP_FireNumber</Pieces>
+    <Pieces>LodiAIP_Cold</Pieces>
+    <Pieces>LodiAIP_ColdNumber</Pieces>
+    <Pieces>LodiAIP_Corruption</Pieces>
+    <Pieces>LodiAIP_CorruptionNumber</Pieces>
+    <Pieces>LodiAIP_TributeText</Pieces>
+    <Pieces>LodiAIP_TributeTimer</Pieces>
+    <Pieces>LodiAIP_GuildTributeText</Pieces>
+    <Pieces>LodiAIP_GuildTributeTimer</Pieces>
+  </Page>
+  <!-- TabBox Brings all the Actions Pages Together -->
+  <TabBox item="ACTW_ActionsSubwindows">
+    <ScreenID>ACTW_ActionsSubwindows</ScreenID>
+    <!--<Font>3</Font>-->
+    <RelativePosition>true</RelativePosition>
+    <AutoStretch>false</AutoStretch>
+    <Location>
+      <X>2</X>
+      <Y>2</Y>
+    </Location>
+    <Size>
+      <CX>110</CX>
+      <CY>190</CY>
+    </Size>
+    <TabBorderTemplate>Lodi_NullTabBorder</TabBorderTemplate>
+    <PageBorderTemplate>Lodi_NullPageBorder</PageBorderTemplate>
+    <Pages>Lodi_ActionsInfoPage</Pages>
+    <Pages>ActionsMainPage</Pages>
+    <Pages>ActionsAbilitiesPage</Pages>
+    <Pages>ActionsCombatPage</Pages>
+    <Pages>ActionsSocialsPage</Pages>
+  </TabBox>
+  <Screen item="ActionsWindow">
+    <!--<ScreenID/>-->
+    <!--<Font>3</Font>-->
+    <RelativePosition>false</RelativePosition>
+    <Location>
+      <X>516</X>
+      <Y>292</Y>
+    </Location>
+    <Size>
+      <CX>113</CX>
+      <CY>195</CY>
+    </Size>
+    <Text>Actions</Text>
+    <Style_VScroll>false</Style_VScroll>
+    <Style_HScroll>false</Style_HScroll>
+    <Style_Transparent>false</Style_Transparent>
+    <!--<TooltipReference/>-->
+    <DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+    <Style_Titlebar>false</Style_Titlebar>
+    <Style_Closebox>false</Style_Closebox>
+    <Style_Minimizebox>false</Style_Minimizebox>
+    <Style_Border>false</Style_Border>
+    <Style_Sizable>false</Style_Sizable>
+    <Pieces>LodiACTW_TabBackground</Pieces>
+    <Pieces>ACTW_ActionsSubwindows</Pieces>
+<!-- -->
+    <Pieces>LodiACTW_LineGroupTop</Pieces>
+    <Pieces>LodiACTW_LineGroupLeft</Pieces>
+    <Pieces>LodiACTW_LineGroupRight</Pieces>
+    <Pieces>LodiACTW_LineGroupBottom</Pieces>
+<!-- -->
+  </Screen>
+</XML>

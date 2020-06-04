@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="us-ascii"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                               -->
+<!-- LODI DODI EQ UI MODIFICATION v3.3.4 (c) 2002-2008 BY D-MONEY  -->
+<!--                                                               -->
+<!-- OPTIONAL LODI DODI "lodidodi_buffbackgrounds.xml" FILE        -->
+<!--                                                               -->
+<!-- (FOR VERTICAL RIGHT BUFF & SONG WINDOWS)                      -->
+<!--                                                               -->
+<!-- DEFINES BUFF BACKGROUNDS from EQUI_Animations.xml             -->
+<!--                                                               -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Ui2DAnimation item="BlueIconBackground">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>113</X>
+				<Y>208</Y>
+			</Location>
+			<Size>
+				<CX>142</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="RedIconBackground">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>113</X>
+				<Y>232</Y>
+			</Location>
+			<Size>
+				<CX>142</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "YellowIconBackground">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations8.tga</Texture>
+			<Location>
+				<X>113</X>
+				<Y>232</Y>
+			</Location>
+			<Size>
+				<CX>142</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+</XML>

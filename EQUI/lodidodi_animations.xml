@@ -1,0 +1,5750 @@
+<?xml version="1.0" encoding="us-ascii"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                               -->
+<!-- LODI DODI EQ UI MODIFICATION v3.3.4 (c) 2002-2008 BY D-MONEY  -->
+<!--                                                               -->
+<!-- STANDARD LODI DODI "lodidodi_animations.xml" FILE             -->
+<!--                                                               -->
+<!-- DEFINES CUSTOM ANIMATIONS                                     -->
+<!--                                                               -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+<!-- - - - - - - - - -->
+<!--                 -->
+<!-- GRAPHICS FILES  -->
+<!--                 -->
+<!-- - - - - - - - - -->
+
+	<TextureInfo item="lodidodi_animations1.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item="lodidodi_animations2.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item="lodidodi_animations3.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item="lodidodi_animations4.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item="lodidodi_animations5.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item="lodidodi_animations6.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item="lodidodi_animations7.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item="lodidodi_animations8.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+	<TextureInfo item="wnd_bg_transparent.tga">
+		<Size>
+			<CX>256</CX>
+			<CY>256</CY>
+		</Size>
+	</TextureInfo>
+
+<!-- - - - - - - - - - - - - -->
+<!--                         -->
+<!-- CUSTOM ANIMATION PIECES -->
+<!--                         -->
+<!-- - - - - - - - - - - - - -->
+
+	<Ui2DAnimation item = "A_Lodi_Transparent2x2">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>wnd_bg_transparent.tga</Texture>
+			<Location>
+				<X>1</X>
+				<Y>248</Y>
+			</Location>
+			<Size>
+				<CX>2</CX>
+				<CY>2</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- NULL ANIMATION -->
+
+	<Ui2DAnimation item = "A_Lodi_Null">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>0</CX>
+				<CY>0</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- BASIC LINE (74/74/74 RBG) -->
+
+	<Ui2DAnimation item="A_Lodi_BasicLine">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>247</X>
+				<Y>3</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>1</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- BLACK (0/0/0 RBG) -->
+
+	<Ui2DAnimation item="A_Lodi_Black">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>247</X>
+				<Y>11</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>1</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- BLACK TITLE B R -->
+
+	<Ui2DAnimation item = "A_Lodi_TitlebarSide">
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>245</X>
+				<Y>9</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>16</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_TitlebarCenter">
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>247</X>
+				<Y>9</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>16</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- MONEY BACKGROUNDS -->
+
+	<Ui2DAnimation item = "A_Lodi_MoneyBackground">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>160</Y>
+			</Location>
+			<Size>
+				<CX>80</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_YellowMoneyBackground">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>232</Y>
+			</Location>
+			<Size>
+				<CX>80</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- YELLOW RECESSED BOX -->
+
+	<Ui2DAnimation item = "A_Lodi_YellowRecessedBox">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>176</X>
+				<Y>184</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- THIN FRAME (NO LINE AROUND BORDER) -->
+
+	<Ui2DAnimation item = "A_Lodi_ThinFrameTitleLeft">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>183</X>
+				<Y>123</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>17</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_ThinFrameTitleMiddle">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>188</X>
+				<Y>123</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>17</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_ThinFrameTitleRight">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>184</X>
+				<Y>123</Y>
+			</Location>
+			<Size>
+				<CX>11</CX>
+				<CY>17</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="A_Lodi_ThinFrame1x1Frame">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>184</X>
+				<Y>141</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>1</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="A_Lodi_ThinFrame1x2Frame">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>184</X>
+				<Y>141</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>2</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="A_Lodi_ThinFrame2x1Frame">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>184</X>
+				<Y>141</Y>
+			</Location>
+			<Size>
+				<CX>2</CX>
+				<CY>1</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="A_Lodi_ThinFrame2x2Frame">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>184</X>
+				<Y>141</Y>
+			</Location>
+			<Size>
+				<CX>2</CX>
+				<CY>2</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- TITLEBAR CLOSE ICON (2 PIXELS LOWER) -->
+
+	<Ui2DAnimation item="A_Lodi_LowerCloseBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>240</X>
+				<Y>38</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerCloseBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>240</X>
+				<Y>51</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerCloseBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>240</X>
+				<Y>64</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerCloseBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>240</X>
+				<Y>38</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerCloseBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>240</X>
+				<Y>51</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- TITLEBAR QMARK ICON (2 PIXELS LOWER) -->
+
+	<Ui2DAnimation item="A_Lodi_LowerQMarkBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>222</X>
+				<Y>38</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerQMarkBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>222</X>
+				<Y>51</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerQMarkBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>222</X>
+				<Y>64</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerQMarkBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>222</X>
+				<Y>38</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerQMarkBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>222</X>
+				<Y>51</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- TITLEBAR MINIMIZE ICON (2 PIXELS LOWER) -->
+
+	<Ui2DAnimation item="A_Lodi_LowerMinimizeBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>224</X>
+				<Y>78</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerMinimizeBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>224</X>
+				<Y>91</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerMinimizeBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>224</X>
+				<Y>104</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerMinimizeBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>224</X>
+				<Y>78</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Lodi_LowerMinimizeBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>224</X>
+				<Y>91</Y>
+			</Location>
+			<Size>
+				<CX>12</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- GAUGE ANIMATIONS -->
+
+	<Ui2DAnimation item = "A_Lodi_BlankGaugeBackground">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>100</X>
+				<Y>176</Y>
+			</Location>
+			<Size>
+				<CX>100</CX>
+				<CY>8</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_GaugeFillYellow1">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>228</Y>
+			</Location>
+			<Size>
+				<CX>12450</CX>
+				<CY>8</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_GaugeFillYellow2">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>236</Y>
+			</Location>
+			<Size>
+				<CX>12450</CX>
+				<CY>8</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_GaugeFillGreen1">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>228</Y>
+			</Location>
+			<Size>
+				<CX>20010</CX>
+				<CY>8</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_GaugeFillGreen2">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>236</Y>
+			</Location>
+			<Size>
+				<CX>20010</CX>
+				<CY>8</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_GaugeFillGreen3">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>244</Y>
+			</Location>
+			<Size>
+				<CX>20010</CX>
+				<CY>8</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- - - - - - - - - -->
+<!-- CUSTOM BUTTONS  -->
+<!-- - - - - - - - - -->
+
+<!-- 80x36 -->
+
+	<Ui2DAnimation item = "A_Lodi_80x36BtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>80</CX>
+				<CY>36</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_80x36BtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>72</Y>
+			</Location>
+			<Size>
+				<CX>80</CX>
+				<CY>36</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_80x36BtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>36</Y>
+			</Location>
+			<Size>
+				<CX>80</CX>
+				<CY>36</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_80x36BtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>108</Y>
+			</Location>
+			<Size>
+				<CX>80</CX>
+				<CY>36</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_80x36BtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>144</Y>
+			</Location>
+			<Size>
+				<CX>80</CX>
+				<CY>36</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_80x36BtnFlybyRed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>180</Y>
+			</Location>
+			<Size>
+				<CX>80</CX>
+				<CY>36</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_80x36BtnPressedFlybyRed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>216</Y>
+			</Location>
+			<Size>
+				<CX>80</CX>
+				<CY>36</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- 128x20 -->
+
+	<Ui2DAnimation item = "A_Lodi_128x20BtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_128x20BtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_128x20BtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_128x20BtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>60</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_128x20BtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- 64x20 -->
+
+	<Ui2DAnimation item = "A_Lodi_64x20BtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>64</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_64x20BtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>140</Y>
+			</Location>
+			<Size>
+				<CX>64</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_64x20BtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>64</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_64x20BtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>160</Y>
+			</Location>
+			<Size>
+				<CX>64</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_64x20BtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>180</Y>
+			</Location>
+			<Size>
+				<CX>64</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- 32x20 -->
+
+	<Ui2DAnimation item = "A_Lodi_32x20BtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_32x20BtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>140</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_32x20BtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_32x20BtnFlybyRed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>224</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_32x20BtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>160</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_32x20BtnPressedFlybyRed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>224</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_32x20BtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>180</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- 20x20 -->
+
+	<Ui2DAnimation item = "A_Lodi_20x20BtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20BtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20BtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>20</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20BtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20BtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_20x20BtnFlybyRed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>60</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20BtnPressedFlybyRed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>20</X>
+				<Y>60</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- 20x20 Minus -->
+
+	<Ui2DAnimation item = "A_Lodi_20x20MinusBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20MinusBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20MinusBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>20</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20MinusBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20MinusBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_20x20MinusBtnFlybyRed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>60</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20MinusBtnPressedFlybyRed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>60</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- 20x20 Plus -->
+
+	<Ui2DAnimation item = "A_Lodi_20x20PlusBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PlusBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PlusBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>20</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PlusBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PlusBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- 20x20 Back -->
+
+	<Ui2DAnimation item = "A_Lodi_20x20BackBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20BackBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20BackBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>20</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20BackBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20BackBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_20x20PlayBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PlayBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PlayBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>20</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PlayBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PlayBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>100</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_20x20PauseBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PauseBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PauseBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>20</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PauseBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20PauseBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_20x20StopBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>140</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20StopBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>140</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20StopBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>20</X>
+				<Y>140</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20StopBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>140</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20StopBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>140</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_20x20NextBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>160</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20NextBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>160</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20NextBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>20</X>
+				<Y>160</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20NextBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>160</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20NextBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>160</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_20x20ShuffleBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>180</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20ShuffleBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>40</X>
+				<Y>180</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20ShuffleBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>20</X>
+				<Y>180</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20ShuffleBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>60</X>
+				<Y>180</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_20x20ShuffleBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>180</Y>
+			</Location>
+			<Size>
+				<CX>20</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- - - - - - - - -->
+<!-- NUMBER BLOCKS -->
+<!-- - - - - - - - -->
+
+<!-- 8x12 NUMBERS FOR SPELLBAR -->
+
+	<Ui2DAnimation item = "A_Lodi_8x9Number0">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>235</X>
+				<Y>191</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_8x9Number1">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>158</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_8x9Number2">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>169</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_8x9Number3">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>180</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_8x9Number4">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>191</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_8x9Number5">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>202</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_8x9Number6">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>213</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_8x9Number7">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>224</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_8x9Number8">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>235</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_8x9Number9">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>246</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_Lodi_8x9Number10">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>158</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_Lodi_8x9Number11">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>169</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_Lodi_8x9Number12">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>180</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>8</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+  <Ui2DAnimation item = "A_Lodi_8x9Number13">
+    <Frames>
+      <Texture>lodidodi_animations3.tga</Texture>
+      <Location>
+        <X>191</X>
+        <Y>181</Y>
+      </Location>
+      <Size>
+        <CX>8</CX>
+        <CY>9</CY>
+      </Size>
+    </Frames>
+  </Ui2DAnimation>
+	
+
+<!-- 10x9 NUMBERS FOR BUFFS -->
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number1">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>157</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number2">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>168</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number3">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>179</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number4">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>190</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number5">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>201</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number6">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>212</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number7">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>223</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number8">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>234</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number9">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>245</X>
+				<Y>171</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number10">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>157</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number11">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>168</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number12">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>179</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number13">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>190</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number14">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>201</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number15">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>212</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number16">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>223</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number17">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>234</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number18">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>245</X>
+				<Y>181</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number19">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>157</X>
+				<Y>191</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number20">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>168</X>
+				<Y>191</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number21">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>179</X>
+				<Y>191</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number22">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>190</X>
+				<Y>191</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number23">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>201</X>
+				<Y>191</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number24">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>212</X>
+				<Y>191</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number25">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>223</X>
+				<Y>191</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number26">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>157</X>
+				<Y>161</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_Lodi_10x9Number27">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>168</X>
+				<Y>161</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_10x9Number28">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>179</X>
+				<Y>161</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_Lodi_10x9Number29">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>190</X>
+				<Y>161</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_Lodi_10x9Number30">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>201</X>
+				<Y>161</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_10x9Number31">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>211</X>
+				<Y>161</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number32">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>223</X>
+				<Y>161</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number33">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>234</X>
+				<Y>161</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number34">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>245</X>
+				<Y>161</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number35">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>212</X>
+				<Y>151</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number36">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>223</X>
+				<Y>151</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number37">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>234</X>
+				<Y>151</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_10x9Number38">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>245</X>
+				<Y>151</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_Lodi_10x9Number39">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>212</X>
+				<Y>141</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_Lodi_10x9Number40">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>223</X>
+				<Y>141</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_Lodi_10x9Number41">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>234</X>
+				<Y>141</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_Lodi_10x9Number42">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>245</X>
+				<Y>141</Y>
+			</Location>
+			<Size>
+				<CX>10</CX>
+				<CY>9</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+	
+<!-- - - - - - - - - - - - - - - - - - - - - -->
+<!-- SPELLBAR (CASTSPELL) WINDOW ANIMATIONS  -->
+<!-- - - - - - - - - - - - - - - - - - - - - -->
+
+<!-- SPELL GEMS FOR SPELLBAR WINDOW -->
+
+	<Ui2DAnimation item = "A_LodiCSPW_GemSolid">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>160</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>39</CX>
+				<CY>30</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiCSPW_GemSolidHoriz">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>160</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>29</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiCSPW_GemBackgroundLeft">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>162</X>
+				<Y>32</Y>
+			</Location>
+			<Size>
+				<CX>36</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiCSPW_GemHolderLeft">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>162</X>
+				<Y>62</Y>
+			</Location>
+			<Size>
+				<CX>36</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiCSPW_GemBackgroundRight">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>162</X>
+				<Y>92</Y>
+			</Location>
+			<Size>
+				<CX>36</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiCSPW_GemHolderRight">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>162</X>
+				<Y>122</Y>
+			</Location>
+			<Size>
+				<CX>36</CX>
+				<CY>26</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- - - - - - - - - - - - - - - -->
+<!-- HOTBUTTON WINDOW ANIMATIONS -->
+<!-- - - - - - - - - - - - - - - -->
+
+<!-- SPELL GEMS FOR HOTBUTTON WINDOW -->
+
+	<Ui2DAnimation item = "A_LodiHB_SpellGemHolder">
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>2</X>
+				<Y>150</Y>
+			</Location>
+			<Size>
+				<CX>36</CX>
+				<CY>36</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SpellGemBackground">
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>42</X>
+				<Y>150</Y>
+			</Location>
+			<Size>
+				<CX>36</CX>
+				<CY>36</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- MISC HOTBUTTON LINES -->
+
+	<Ui2DAnimation item="A_LodiHB_TabOutline">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>164</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>15</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- HOTBUTTON WINDOW: ICONS FOR BAGS/HEAD/ARMS/BODY TABS -->
+
+	<Ui2DAnimation item = "A_LodiHB_BagsTab_Icon">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>5</X>
+				<Y>2</Y>
+			</Location>
+			<Size>
+				<CX>16</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_BagsTab_IconActive">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>25</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>16</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_HeadTab_Icon">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>44</X>
+				<Y>2</Y>
+			</Location>
+			<Size>
+				<CX>16</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_HeadTab_IconActive">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>64</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>16</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_ArmsTab_Icon">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>84</X>
+				<Y>2</Y>
+			</Location>
+			<Size>
+				<CX>16</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_ArmsTab_IconActive">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>104</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>16</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_BodyTab_Icon">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>125</X>
+				<Y>2</Y>
+			</Location>
+			<Size>
+				<CX>16</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_BodyTab_IconActive">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>145</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>16</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- HOTBUTTON WINDOW: MINI INVENTORY SLOTS -->
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMini1">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMini2">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>52</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMini3">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>84</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMini4">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMini5">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>32</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMini6">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>32</X>
+				<Y>52</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMini7">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>32</X>
+				<Y>84</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMini8">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>32</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_LodiHB_SlotMini9">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>190</X>
+				<Y>185</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_LodiHB_SlotMini10">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>222</X>
+				<Y>185</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniHead">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>64</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniFace">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>96</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniNeck">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniCharm">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>160</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniEar">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>20</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniHands">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>64</X>
+				<Y>52</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniArms">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>96</X>
+				<Y>52</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniWrist">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>52</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniFinger">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>52</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniChest">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>64</X>
+				<Y>84</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniBack">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>96</X>
+				<Y>84</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniShoulders">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>84</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniWaist">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>160</X>
+				<Y>84</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniLegs">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>192</X>
+				<Y>84</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniFeet">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>224</X>
+				<Y>84</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniPrimary">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>64</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniSecondary">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>96</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniRange">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiHB_SlotMiniAmmo">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>160</X>
+				<Y>116</Y>
+			</Location>
+			<Size>
+				<CX>32</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- - - - - - - - - - -->
+<!-- INVENTORY WINDOW  -->
+<!-- - - - - - - - - - -->
+
+<!-- INV SLOT 1-8 BACKGROUNDS FOR INVENTORY WINDOW -->
+
+	<Ui2DAnimation item = "A_Lodi_InvSlot1">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_InvSlot2">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_InvSlot3">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_InvSlot4">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_InvSlot5">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>120</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_InvSlot6">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>120</X>
+				<Y>40</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_InvSlot7">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>120</X>
+				<Y>80</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_InvSlot8">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>120</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_Lodi_InvSlot9">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>120</X>
+				<Y>114</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_Lodi_InvSlot10">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>160</X>
+				<Y>114</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>40</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+<!-- OUTLINE FOR TAB TITLES -->
+
+	<Ui2DAnimation item="A_LodiIW_TabOutline">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>170</X>
+				<Y>149</Y>
+			</Location>
+			<Size>
+				<CX>63</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- - - - - - - - - -->
+<!-- ACTIONS WINDOW  -->
+<!-- - - - - - - - - -->
+
+<!-- TAB ICONS AND TAB ICONS BACKGROUND -->
+
+	<Ui2DAnimation item = "A_LodiACTW_TabIconsBackground">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>146</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>110</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_MainTabIcon">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>126</X>
+				<Y>30</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_MainTabActiveIcon">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>126</X>
+				<Y>46</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_CombatTabIcon">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>152</X>
+				<Y>30</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_CombatTabActiveIcon">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>152</X>
+				<Y>46</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_SocialsTabIcon">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>178</X>
+				<Y>30</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_SocialsTabActiveIcon">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>178</X>
+				<Y>46</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_AbilitiesTabIcon">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>204</X>
+				<Y>30</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_AbilitiesTabActiveIcon">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>204</X>
+				<Y>46</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_StatsTabIcon">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>230</X>
+				<Y>30</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_StatsTabActiveIcon">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>230</X>
+				<Y>46</Y>
+			</Location>
+			<Size>
+				<CX>22</CX>
+				<CY>18</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- ACTIONS WINDOW PAGE OUTLINES -->
+
+	<Ui2DAnimation item = "A_LodiACTW_BackgroundSide">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>101</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>166</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_BackgroundCenter">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>103</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>166</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_ASPPageNumBackgroundSide">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>101</X>
+				<Y>167</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_ASPPageNumBackgroundCenter">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>103</X>
+				<Y>167</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_ASPPageNumBackgroundShadow">
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>109</X>
+				<Y>169</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>1</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_AIPBackgroundLeftSide">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>107</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>166</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_AIPBackgroundRightSide">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>117</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>166</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_AIPBackgroundLeftCenter">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>109</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>166</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_AIPBackgroundRightCenter">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>115</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>166</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiACTW_AIPBackgroundSplit">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations3.tga</Texture>
+			<Location>
+				<X>111</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>3</CX>
+				<CY>166</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- PLAYER WINDOW BACKGROUNDS -->
+
+	<Ui2DAnimation item = "A_LodiPlayer_BackgroundTop">
+		<Frames>
+			<Texture>wnd_bg_light_rock.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>212</CX>
+				<CY>4</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiPlayer_BackgroundLeft">
+		<Frames>
+			<Texture>wnd_bg_light_rock.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>65</CX>
+				<CY>28</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiPlayer_BackgroundRight">
+		<Frames>
+			<Texture>wnd_bg_light_rock.tga</Texture>
+			<Location>
+				<X>83</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>129</CX>
+				<CY>28</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiPlayer_BackgroundBottom">
+		<Frames>
+			<Texture>wnd_bg_light_rock.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>32</Y>
+			</Location>
+			<Size>
+				<CX>212</CX>
+				<CY>34</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiPlayer_TwoBackgroundTop">
+		<Frames>
+			<Texture>wnd_bg_light_rock.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>184</CX>
+				<CY>4</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_LodiPlayer_TwoBackgroundTop2">
+		<Frames>
+			<Texture>wnd_bg_light_rock.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>33</CX>
+				<CY>2</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiPlayer_TwoBackgroundLeft">
+		<Frames>
+			<Texture>wnd_bg_light_rock.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>37</CX>
+				<CY>28</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	
+	<Ui2DAnimation item = "A_LodiPlayer_TwoBackgroundLeftleft">
+		<Frames>
+			<Texture>wnd_bg_light_rock.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>37</CX>
+				<CY>28</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiPlayer_TwoBackgroundRight">
+		<Frames>
+			<Texture>wnd_bg_light_rock.tga</Texture>
+			<Location>
+				<X>55</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>129</CX>
+				<CY>28</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiPlayer_TwoBackgroundBottom">
+		<Frames>
+			<Texture>wnd_bg_light_rock.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>32</Y>
+			</Location>
+			<Size>
+				<CX>184</CX>
+				<CY>34</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- - - - - - - -->
+<!-- BUFF WINDOW -->
+<!-- - - - - - - -->
+
+	<Ui2DAnimation item = "A_LodiBW_41x15Block">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>240</Y>
+			</Location>
+			<Size>
+				<CX>41</CX>
+				<CY>15</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiBW_40x15Block">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>240</Y>
+			</Location>
+			<Size>
+				<CX>40</CX>
+				<CY>15</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiBW_31x13Block">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>169</X>
+				<Y>242</Y>
+			</Location>
+			<Size>
+				<CX>31</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiBW_30x13Block">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>169</X>
+				<Y>242</Y>
+			</Location>
+			<Size>
+				<CX>30</CX>
+				<CY>13</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiBW_14x25Block">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>185</X>
+				<Y>217</Y>
+			</Location>
+			<Size>
+				<CX>14</CX>
+				<CY>25</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiBW_14x24Block">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>168</X>
+				<Y>241</Y>
+			</Location>
+			<Size>
+				<CX>14</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- - - - - - - - - -->
+<!-- SELECTOR WINDOW -->
+<!-- - - - - - - - - -->
+
+	<Ui2DAnimation item = "A_MailBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>120</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_MailBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>168</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_MailBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>144</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_MailBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>192</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_MailBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>216</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_GotMailBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>184</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_GotMailBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>208</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_GotMailBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>144</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_GotMailBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>192</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_RedMailBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>184</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_RedMailBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>208</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_RedMailBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>144</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item = "A_RedMailBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations1.tga</Texture>
+			<Location>
+				<X>200</X>
+				<Y>192</Y>
+			</Location>
+			<Size>
+				<CX>48</CX>
+				<CY>24</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- - - - - - - - - - -->
+<!-- SPELLBOOK WINDOW  -->
+<!-- - - - - - - - - - -->
+
+	<Ui2DAnimation item = "A_LodiSBW_PageNumBackgroundSide">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>250</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PageNumBackgroundCenter">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>252</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_IconsBackgroundSide">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>250</X>
+				<Y>25</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>191</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_IconsBackgroundCenter">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>252</X>
+				<Y>25</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>191</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_IconsBackgroundSide_Small">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>243</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>139</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_IconsBackgroundCenter_Small">
+		<Frames>
+			<Texture>lodidodi_animations5.tga</Texture>
+			<Location>
+				<X>245</X>
+				<Y>1</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>139</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_MinusBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>78</CX>
+				<CY>252</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_MinusBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>99</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>78</CX>
+				<CY>252</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_MinusBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>78</CX>
+				<CY>252</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_MinusBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>78</CX>
+				<CY>252</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_MinusBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>78</CX>
+				<CY>252</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_MinusSmallBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>4</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>19</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_MinusSmallBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>103</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>19</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_MinusSmallBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>4</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>19</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_MinusSmallBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>4</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>19</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_MinusSmallBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>4</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>19</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PlusBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>24</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>78</CX>
+				<CY>252</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PlusBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>123</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>78</CX>
+				<CY>252</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PlusBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>24</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>78</CX>
+				<CY>252</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PlusBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>24</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>78</CX>
+				<CY>252</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PlusBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>24</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>78</CX>
+				<CY>252</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PlusSmallBtnNormal">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>79</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>19</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PlusSmallBtnFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>178</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>19</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PlusSmallBtnPressed">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>79</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>19</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PlusSmallBtnPressedFlyby">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations7.tga</Texture>
+			<Location>
+				<X>79</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>19</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiSBW_PlusSmallBtnDisabled">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations6.tga</Texture>
+			<Location>
+				<X>79</X>
+				<Y>4</Y>
+			</Location>
+			<Size>
+				<CX>19</CX>
+				<CY>19</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- OPTIONAL COMPASS TRIPS -->
+
+	<Ui2DAnimation item="A_LodiCMPW_CompassStripDark">
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>223</Y>
+			</Location>
+			<Size>
+				<CX>180</CX>
+				<CY>15</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item="A_LodiCMPW_CompassStripLight">
+		<Frames>
+			<Texture>lodidodi_animations4.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>240</Y>
+			</Location>
+			<Size>
+				<CX>180</CX>
+				<CY>15</CY>
+			</Size>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- COMBAT ABILITIES WINDOW -->
+
+	<Ui2DAnimation item="A_LodiCAW_Line">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>252</X>
+				<Y>2</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>1</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>1000</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- PET WINDOW -->
+
+	<Ui2DAnimation item = "A_LodiPIW_NameBackgroundSide">
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>170</X>
+				<Y>125</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>31</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+	<Ui2DAnimation item = "A_LodiPIW_NameBackgroundCenter">
+		<Frames>
+			<Texture>lodidodi_animations2.tga</Texture>
+			<Location>
+				<X>172</X>
+				<Y>125</Y>
+			</Location>
+			<Size>
+				<CX>1</CX>
+				<CY>31</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+
+<!-- - - - - - - - - - -->
+<!--                   -->
+<!-- CUSTOM TEMPLATES  -->
+<!--                   -->
+<!-- - - - - - - - - - -->
+
+	<FrameTemplate item="Lodi_NullTabBorder">
+		<TopLeft>A_Lodi_Null</TopLeft>
+		<Top>A_Lodi_Null</Top>
+		<TopRight>A_Lodi_Null</TopRight>
+		<RightTop>A_Lodi_Null</RightTop>
+		<Right>A_Lodi_Null</Right>
+		<RightBottom>A_Lodi_Null</RightBottom>
+		<LeftTop>A_Lodi_Null</LeftTop>
+		<Left>A_Lodi_Null</Left>
+		<LeftBottom>A_Lodi_Null</LeftBottom>
+		<OverlapLeft>0</OverlapLeft>
+		<OverlapTop>0</OverlapTop>
+		<OverlapRight>0</OverlapRight>
+		<OverlapBottom>0</OverlapBottom>
+	</FrameTemplate>
+
+	<FrameTemplate item="Lodi_NullPageBorder">
+		<TopLeft>A_Lodi_Null</TopLeft>
+		<Top>A_Lodi_Null</Top>
+		<TopRight>A_Lodi_Null</TopRight>
+		<RightTop>A_Lodi_Null</RightTop>
+		<Right>A_Lodi_Null</Right>
+		<RightBottom>A_Lodi_Null</RightBottom>
+		<BottomRight>A_Lodi_Null</BottomRight>
+		<Bottom>A_Lodi_Null</Bottom>
+		<BottomLeft>A_Lodi_Null</BottomLeft>
+		<LeftTop>A_Lodi_Null</LeftTop>
+		<Left>A_Lodi_Null</Left>
+		<LeftBottom>A_Lodi_Null</LeftBottom>
+		<OverlapLeft>0</OverlapLeft>
+		<OverlapTop>0</OverlapTop>
+		<OverlapRight>0</OverlapRight>
+		<OverlapBottom>0</OverlapBottom>
+	</FrameTemplate>
+
+</XML>

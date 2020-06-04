@@ -1,0 +1,42 @@
+<?xml version = "1.0"?>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--                                                               -->
+<!-- LODI DODI EQ UI MODIFICATION v3.0.1 (c) 2002-2006 BY D-MONEY  -->
+<!--                                                               -->
+<!-- THIS FILE REMOVES THE "EASTER EGG" VIDEO                      -->
+<!--                                                               -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- ASSUMES GRAPHICS FILES (bard01.tga to wizard02.tga) ARE LISTED IN "EQUI_Animations.xml" -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - -->
+<!-- CLASS ANIMATIONS  -->
+<!-- - - - - - - - - - -->
+
+	<Ui2DAnimation item = "A_Lodi_ClassAnim">
+		<Cycle>true</Cycle>
+		<Frames>
+			<Texture>bard01.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>0</Y>
+			</Location>
+			<Size>
+				<CX>0</CX>
+				<CY>0</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+			<Duration>250</Duration>
+		</Frames>
+	</Ui2DAnimation>
+
+</XML>
